@@ -1,0 +1,27 @@
+package student.javalang;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc;
+		sc=new Scanner(System.in);
+		String name;
+		System.out.println("enter an employee name");
+		name = sc.next();
+		String salary;
+		System.out.println("enter salary");
+		salary = sc.next();
+		System.out.println("Hello " + name + " this is your salary " + salary);
+		String fellow_name;
+		System.out.println("enter a fellow employee name");
+		fellow_name = sc.next();
+		String friend_salary;
+		System.out.println("enter a friend employee's salary");
+		friend_salary = sc.next();
+		System.out.println("Hello, your friend employee's name is  " + fellow_name + " this is their salary " + friend_salary);
+		
+	}
+
+}

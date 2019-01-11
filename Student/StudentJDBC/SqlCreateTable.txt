@@ -1,0 +1,6 @@
+String sql = "CREATE TABLE MySchema.Books ( " +
+                "Isbn  INTEGER      NOT NULL, " +
+                "Title VARCHAR(50)  NOT NULL, " +
+                "Price DECIMAL(6,2) NOT NULL, " +
+                "CONSTRAINT PK_Books PRIMARY KEY (Isbn) "    +
+             ")";

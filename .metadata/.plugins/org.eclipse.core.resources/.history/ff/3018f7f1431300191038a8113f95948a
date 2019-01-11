@@ -1,0 +1,19 @@
+package student.javalang;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc;
+		String name;
+		sc=new Scanner(System.in);
+		name = sc.next();
+		System.out.println("enter an employee name");
+		String salary;
+		salary = sc.next();
+		System.out.println(salary);
+		
+	}
+
+}

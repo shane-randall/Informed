@@ -1,0 +1,28 @@
+package student.interfaces;
+
+public class ReservableBook
+	extends Book
+	implements Reservable {
+	
+	private Member reserver;
+	
+	//TODO Suitable constructors
+	
+	public boolean isReserved() {
+		return (reserver != null);
+	}
+
+	
+	@Override
+	public boolean canBeReservedFor(Member member) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean reserveItemFor(Member member) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,15 @@
+package student.interfaces;
+
+public class ReservableBook
+	extends Book
+	implements Reservable {
+	
+	private Member reserver;
+	
+	//TODO Suitable constructors
+	
+	public boolean isReserved() {
+		return (reserver != null);
+	}
+
+}

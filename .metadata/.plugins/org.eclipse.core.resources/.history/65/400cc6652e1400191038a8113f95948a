@@ -1,0 +1,12 @@
+package employee;
+
+public class EmployeeInfo {
+
+	public static void main(String[] args) {
+		Employee e1 = new Employee("Welbz", 2000, 10/02/2018);
+		
+		System.out.println(e1);
+
+	}
+
+}

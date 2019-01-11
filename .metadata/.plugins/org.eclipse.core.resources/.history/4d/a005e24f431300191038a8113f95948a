@@ -1,0 +1,20 @@
+package student.javalang;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc;
+		String name;
+		String salary;
+		sc=new Scanner(System.in);
+		name = sc.next();
+		salary = sc.next();
+		System.out.println(name); System.out.println(salary);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
